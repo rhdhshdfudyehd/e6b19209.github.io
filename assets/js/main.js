@@ -54,6 +54,5 @@
 			'currency': 'USD',
 			'event_callback': callback
 		});
-		return false;
 	});
 })(jQuery);
