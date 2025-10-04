@@ -44,15 +44,4 @@
 	$("[data-bg-color]").each(function () {
 		$(this).css("background-color", $(this).attr("data-bg-color"));
 	});
-
-	$('._tg_url').click(function (){
-		$(this).attr('href', 'https://t.me/les_truman');
-		var callback = function () {};
-		gtag('event', 'conversion', {
-			'send_to': 'AW-11501793643/OK5ZCLONtoQaEOvivewq',
-			'value': 1.0,
-			'currency': 'USD',
-			'event_callback': callback
-		});
-	});
 })(jQuery);
